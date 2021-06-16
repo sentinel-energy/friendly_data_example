@@ -1,0 +1,24 @@
+*~
+\#*\#
+
+# byte-compiled files
+__pycache__
+
+# typical cache directories
+.*[cC]ache*
+
+# logs
+*.log
+*.txt
+
+# archives/compressed files
+*.tar
+*.zip
+*.gz
+*.bz
+*.xz
+
+# scratch directories
+tmp
+test*
+out*

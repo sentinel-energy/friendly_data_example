@@ -1,0 +1,14 @@
+metadata:
+  description: Calliope output dataset for IAMC conversion
+  keywords:
+  - calliope
+  - iamc
+  - free-model-runs
+  - test
+  licenses: CC-BY-4.0
+  name: calliope-sentinel-free-model-run-test
+
+indices:
+  technology: technology.csv
+  carrier: carrier.csv
+  model: calliope

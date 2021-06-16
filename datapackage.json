@@ -1,0 +1,3125 @@
+{
+  "description": "Calliope output dataset for IAMC conversion",
+  "keywords": [
+    "calliope",
+    "iamc",
+    "free-model-runs",
+    "test"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "name": "calliope-sentinel-free-model-run-test",
+  "resources": [
+    {
+      "path": "data/nameplate_capacity.csv",
+      "name": "nameplate_capacity",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "technology",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "battery",
+                "ccgt",
+                "electrolysis",
+                "eu_import",
+                "gas_hob",
+                "heat_storage_big",
+                "hp",
+                "hydro_reservoir",
+                "hydro_run_of_river",
+                "hydrogen_storage",
+                "hydrogen_to_methane",
+                "nuclear",
+                "open_field_pv",
+                "roof_mounted_pv",
+                "wind_offshore",
+                "wind_onshore"
+              ]
+            }
+          },
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "locs",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            },
+            "alias": "region"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "tw"
+              ]
+            }
+          },
+          {
+            "name": "nameplate_capacity",
+            "type": "number",
+            "format": "default",
+            "constraints": {
+              "minimum": 0
+            }
+          }
+        ],
+        "primaryKey": [
+          "technology",
+          "scenario",
+          "year",
+          "locs",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/nameplate_capacity_const1.csv",
+      "name": "nameplate_capacity_const1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "tw"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/nameplate_capacity_const2.csv",
+      "name": "nameplate_capacity_const2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "tw"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/nameplate_capacity_multi.csv",
+      "name": "nameplate_capacity_multi",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "carrier",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "electricity",
+                "heat"
+              ]
+            }
+          },
+          {
+            "name": "technology",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "chp_biofuel_extraction",
+                "chp_wte_back_pressure"
+              ]
+            }
+          },
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "tw"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "carrier",
+          "technology",
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/total_investment_cost.csv",
+      "name": "total_investment_cost",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "technology",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "battery",
+                "ccgt",
+                "electrolysis",
+                "eu_import",
+                "gas_hob",
+                "heat_storage_big",
+                "hp",
+                "hydro_reservoir",
+                "hydro_run_of_river",
+                "hydrogen_storage",
+                "hydrogen_to_methane",
+                "nuclear",
+                "open_field_pv",
+                "roof_mounted_pv",
+                "wind_offshore",
+                "wind_onshore"
+              ]
+            }
+          },
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "locs",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            },
+            "alias": "region"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "billion_2015eur"
+              ]
+            }
+          },
+          {
+            "name": "total_investment_cost",
+            "type": "number"
+          }
+        ],
+        "primaryKey": [
+          "technology",
+          "scenario",
+          "year",
+          "locs",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/total_investment_cost_const1.csv",
+      "name": "total_investment_cost_const1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "billion_2015eur"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/total_investment_cost_const2.csv",
+      "name": "total_investment_cost_const2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "billion_2015eur"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/total_investment_cost_multi.csv",
+      "name": "total_investment_cost_multi",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "carrier",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "electricity",
+                "heat"
+              ]
+            }
+          },
+          {
+            "name": "technology",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "chp_biofuel_extraction",
+                "chp_wte_back_pressure"
+              ]
+            }
+          },
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "billion_2015eur"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "carrier",
+          "technology",
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_in_25.csv",
+      "name": "flow_in_25",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "techs",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "electric_heater",
+                "light_transport_ev"
+              ]
+            },
+            "alias": "technology"
+          },
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "locs",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            },
+            "alias": "region"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "flow_in_25",
+            "type": "number"
+          }
+        ],
+        "primaryKey": [
+          "techs",
+          "scenario",
+          "year",
+          "locs",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_in_50.csv",
+      "name": "flow_in_50",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "techs",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "electric_heater",
+                "light_transport_ev"
+              ]
+            },
+            "alias": "technology"
+          },
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "locs",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            },
+            "alias": "region"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "flow_in_50",
+            "type": "number"
+          }
+        ],
+        "primaryKey": [
+          "techs",
+          "scenario",
+          "year",
+          "locs",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_in_summer_peak.csv",
+      "name": "flow_in_summer_peak",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "techs",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "electric_heater",
+                "light_transport_ev"
+              ]
+            },
+            "alias": "technology"
+          },
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "locs",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            },
+            "alias": "region"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "flow_in_summer_peak",
+            "type": "number"
+          }
+        ],
+        "primaryKey": [
+          "techs",
+          "scenario",
+          "year",
+          "locs",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_in_winter_peak.csv",
+      "name": "flow_in_winter_peak",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "techs",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "electric_heater",
+                "light_transport_ev"
+              ]
+            },
+            "alias": "technology"
+          },
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "locs",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            },
+            "alias": "region"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "flow_in_winter_peak",
+            "type": "number"
+          }
+        ],
+        "primaryKey": [
+          "techs",
+          "scenario",
+          "year",
+          "locs",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_in_sum.csv",
+      "name": "flow_in_sum",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "techs",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "electric_heater",
+                "light_transport_ev"
+              ]
+            },
+            "alias": "technology"
+          },
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "locs",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            },
+            "alias": "region"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "flow_in_sum",
+            "type": "number"
+          }
+        ],
+        "primaryKey": [
+          "techs",
+          "scenario",
+          "year",
+          "locs",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_25.csv",
+      "name": "flow_out_25",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "technology",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "battery",
+                "ccgt",
+                "electrolysis",
+                "eu_import",
+                "gas_hob",
+                "heat_storage_big",
+                "hp",
+                "hydro_reservoir",
+                "hydro_run_of_river",
+                "hydrogen_storage",
+                "hydrogen_to_methane",
+                "nuclear",
+                "open_field_pv",
+                "roof_mounted_pv",
+                "wind_offshore",
+                "wind_onshore"
+              ]
+            }
+          },
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "locs",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            },
+            "alias": "region"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "flow_out_25",
+            "type": "number"
+          }
+        ],
+        "primaryKey": [
+          "technology",
+          "scenario",
+          "year",
+          "locs",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_25_const1.csv",
+      "name": "flow_out_25_const1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_25_const2.csv",
+      "name": "flow_out_25_const2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_25_multi.csv",
+      "name": "flow_out_25_multi",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "carrier",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "electricity",
+                "heat"
+              ]
+            }
+          },
+          {
+            "name": "technology",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "chp_biofuel_extraction",
+                "chp_wte_back_pressure"
+              ]
+            }
+          },
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "carrier",
+          "technology",
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_50.csv",
+      "name": "flow_out_50",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "technology",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "battery",
+                "ccgt",
+                "electrolysis",
+                "eu_import",
+                "gas_hob",
+                "heat_storage_big",
+                "hp",
+                "hydro_reservoir",
+                "hydro_run_of_river",
+                "hydrogen_storage",
+                "hydrogen_to_methane",
+                "nuclear",
+                "open_field_pv",
+                "roof_mounted_pv",
+                "wind_offshore",
+                "wind_onshore"
+              ]
+            }
+          },
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "locs",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            },
+            "alias": "region"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "flow_out_50",
+            "type": "number"
+          }
+        ],
+        "primaryKey": [
+          "technology",
+          "scenario",
+          "year",
+          "locs",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_50_const1.csv",
+      "name": "flow_out_50_const1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_50_const2.csv",
+      "name": "flow_out_50_const2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_50_multi.csv",
+      "name": "flow_out_50_multi",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "carrier",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "electricity",
+                "heat"
+              ]
+            }
+          },
+          {
+            "name": "technology",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "chp_biofuel_extraction",
+                "chp_wte_back_pressure"
+              ]
+            }
+          },
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "carrier",
+          "technology",
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_summer_peak.csv",
+      "name": "flow_out_summer_peak",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "technology",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "battery",
+                "ccgt",
+                "electrolysis",
+                "eu_import",
+                "gas_hob",
+                "heat_storage_big",
+                "hp",
+                "hydro_reservoir",
+                "hydro_run_of_river",
+                "hydrogen_storage",
+                "hydrogen_to_methane",
+                "nuclear",
+                "open_field_pv",
+                "roof_mounted_pv",
+                "wind_offshore",
+                "wind_onshore"
+              ]
+            }
+          },
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "locs",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            },
+            "alias": "region"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "flow_out_summer_peak",
+            "type": "number"
+          }
+        ],
+        "primaryKey": [
+          "technology",
+          "scenario",
+          "year",
+          "locs",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_summer_peak_const1.csv",
+      "name": "flow_out_summer_peak_const1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_summer_peak_const2.csv",
+      "name": "flow_out_summer_peak_const2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_summer_peak_multi.csv",
+      "name": "flow_out_summer_peak_multi",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "carrier",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "electricity",
+                "heat"
+              ]
+            }
+          },
+          {
+            "name": "technology",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "chp_biofuel_extraction",
+                "chp_wte_back_pressure"
+              ]
+            }
+          },
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "carrier",
+          "technology",
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_winter_peak.csv",
+      "name": "flow_out_winter_peak",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "technology",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "battery",
+                "ccgt",
+                "electrolysis",
+                "eu_import",
+                "gas_hob",
+                "heat_storage_big",
+                "hp",
+                "hydro_reservoir",
+                "hydro_run_of_river",
+                "hydrogen_storage",
+                "hydrogen_to_methane",
+                "nuclear",
+                "open_field_pv",
+                "roof_mounted_pv",
+                "wind_offshore",
+                "wind_onshore"
+              ]
+            }
+          },
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "locs",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            },
+            "alias": "region"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "flow_out_winter_peak",
+            "type": "number"
+          }
+        ],
+        "primaryKey": [
+          "technology",
+          "scenario",
+          "year",
+          "locs",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_winter_peak_const1.csv",
+      "name": "flow_out_winter_peak_const1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_winter_peak_const2.csv",
+      "name": "flow_out_winter_peak_const2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_winter_peak_multi.csv",
+      "name": "flow_out_winter_peak_multi",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "carrier",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "electricity",
+                "heat"
+              ]
+            }
+          },
+          {
+            "name": "technology",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "chp_biofuel_extraction",
+                "chp_wte_back_pressure"
+              ]
+            }
+          },
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "carrier",
+          "technology",
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_sum.csv",
+      "name": "flow_out_sum",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "technology",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "battery",
+                "ccgt",
+                "electrolysis",
+                "eu_import",
+                "gas_hob",
+                "heat_storage_big",
+                "hp",
+                "hydro_reservoir",
+                "hydro_run_of_river",
+                "hydrogen_storage",
+                "hydrogen_to_methane",
+                "nuclear",
+                "open_field_pv",
+                "roof_mounted_pv",
+                "wind_offshore",
+                "wind_onshore"
+              ]
+            }
+          },
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "locs",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            },
+            "alias": "region"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "flow_out_sum",
+            "type": "number"
+          }
+        ],
+        "primaryKey": [
+          "technology",
+          "scenario",
+          "year",
+          "locs",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_sum_const1.csv",
+      "name": "flow_out_sum_const1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_sum_const2.csv",
+      "name": "flow_out_sum_const2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    },
+    {
+      "path": "data/flow_out_sum_multi.csv",
+      "name": "flow_out_sum_multi",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "carrier",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "electricity",
+                "heat"
+              ]
+            }
+          },
+          {
+            "name": "technology",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "chp_biofuel_extraction",
+                "chp_wte_back_pressure"
+              ]
+            }
+          },
+          {
+            "name": "scenario",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "enum": [
+                "climate_neutrality"
+              ]
+            }
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AUT",
+                "BEL",
+                "BGR",
+                "CYP",
+                "CZE",
+                "DEU",
+                "DNK",
+                "ESP",
+                "EST",
+                "FIN",
+                "FRA",
+                "GBR",
+                "GRC",
+                "HRV",
+                "HUN",
+                "IRL",
+                "ITA",
+                "LTU",
+                "LUX",
+                "LVA",
+                "NLD",
+                "POL",
+                "PRT",
+                "ROU",
+                "SVK",
+                "SVN",
+                "SWE"
+              ]
+            }
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "twh"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "primaryKey": [
+          "carrier",
+          "technology",
+          "scenario",
+          "year",
+          "region",
+          "unit"
+        ]
+      }
+    }
+  ]
+}

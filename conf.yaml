@@ -12,3 +12,5 @@ indices:
   technology: technology.csv
   carrier: carrier.csv
   model: calliope
+  scenario: diag-npi
+  year: 2030

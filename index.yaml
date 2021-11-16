@@ -1,321 +1,99 @@
-- alias:
+- agg:
+    technology:
+    - values:
+      - coal_power_plant
+      - ccgt
+      variable: Fixed Cost|Electricity|Fossil
+    - values:
+      - hydro_reservoir
+      - hydro_run_of_river
+      variable: Fixed Cost|Electricity|Hydro
+    - values:
+      - open_field_pv
+      - roof_mounted_pv
+      variable: Fixed Cost|Electricity|Solar|PV
+    - values:
+      - wind_onshore
+      - wind_offshore
+      variable: Fixed Cost|Electricity|Wind
+  alias:
     locs: region
-  iamc: Installed capacity|{technology}
+    techs: technology
+  iamc: Fixed Cost|Electricity|{technology}
   idxcols:
-  - technology
-  - scenario
-  - year
   - locs
+  - techs
   - unit
-  name: Installed capacity
-  path: data/nameplate_capacity.csv
-- iamc: Installed capacity|P2L|Electricity
-  idxcols:
-  - scenario
-  - year
-  - region
-  - unit
-  name: Installed capacity
-  path: data/nameplate_capacity_const1.csv
-- alias:
-    technology: technology
-  iamc: Installed capacity|Heat|Electricity|Others
-  idxcols:
-  - scenario
-  - year
-  - region
-  - unit
-  name: Installed capacity
-  path: data/nameplate_capacity_const2.csv
-- iamc: Installed capacity|{carrier}|{technology}
-  idxcols:
-  - carrier
-  - technology
-  - scenario
-  - year
-  - region
-  - unit
-  name: Installed capacity
-  path: data/nameplate_capacity_multi.csv
-- alias:
-    locs: region
-  iamc: Investments|{technology}
-  idxcols:
-  - technology
-  - scenario
-  - year
-  - locs
-  - unit
-  name: Investments
-  path: data/total_investment_cost.csv
-- iamc: Investments|P2L|Electricity
-  idxcols:
-  - scenario
-  - year
-  - region
-  - unit
-  name: Investments
-  path: data/total_investment_cost_const1.csv
-- iamc: Investments|Heat|Electricity|Others
-  idxcols:
-  - scenario
-  - year
-  - region
-  - unit
-  name: Investments
-  path: data/total_investment_cost_const2.csv
-- iamc: Investments|{carrier}|{technology}
-  idxcols:
-  - carrier
-  - technology
-  - scenario
-  - year
-  - region
-  - unit
-  name: Investments
-  path: data/total_investment_cost_multi.csv
+  path: annual_cost_per_nameplate_capacity.csv
 - alias:
     locs: region
     techs: technology
-  iamc: Hourly power consumption|Percentile 25|{technology}
+  iamc: Emission Rate|CO2|Electricity|{technology}
   idxcols:
-  - techs
-  - scenario
-  - year
   - locs
+  - techs
   - unit
-  name: Hourly power consumption|Percentile 25
-  path: data/flow_in_25.csv
-- alias:
+  path: emissions_per_flow_in.csv
+- agg:
+    technology:
+    - values:
+      - dac
+      variable: Carbon Sequestration|Direct Air Capture
+    - values:
+      - hydro_reservoir
+      - hydro_run_of_river
+      variable: Primary Energy|Hydro
+    - values:
+      - open_field_pv
+      - roof_mounted_pv
+      variable: Primary Energy|Solar
+    - values:
+      - wind_onshore
+      - wind_offshore
+      variable: Primary Energy|Wind
+    - values:
+      - diesel_supply
+      - kerosene_supply
+      - coal_power_plant
+      - methane_supply
+      variable: Primary Energy|Fossil
+  alias:
     locs: region
     techs: technology
-  iamc: Hourly power consumption|Percentile 50|{technology}
+    carriers: carrier
+  iamc: Primary Energy|{technology}
   idxcols:
-  - techs
   - scenario
-  - year
+  - carriers
+  - techs
   - locs
   - unit
-  name: Hourly power consumption|Percentile 50
-  path: data/flow_in_50.csv
-- alias:
+  - year
+  path: flow_out_sum.csv
+- agg:
+    technology:
+    - values:
+      - hydro_reservoir
+      - hydro_run_of_river
+      variable: Capacity|Electricity|Hydro
+    - values:
+      - open_field_pv
+      - roof_mounted_pv
+      variable: Capacity|Electricity|Solar|PV
+    - values:
+      - wind_onshore
+      - wind_offshore
+      variable: Capacity|Electricity|Wind
+  alias:
     locs: region
     techs: technology
-  iamc: Hourly power consumption|Summer Peak|{technology}
+    carriers: carrier
+  iamc: Capacity|{carrier}|{technology}
   idxcols:
+  - scenario
+  - carriers
   - techs
-  - scenario
-  - year
   - locs
   - unit
-  name: Hourly power consumption|Summer Peak
-  path: data/flow_in_summer_peak.csv
-- alias:
-    locs: region
-    techs: technology
-  iamc: Hourly power consumption|Winter Peak|{technology}
-  idxcols:
-  - techs
-  - scenario
   - year
-  - locs
-  - unit
-  name: Hourly power consumption|Winter Peak
-  path: data/flow_in_winter_peak.csv
-- alias:
-    locs: region
-    techs: technology
-  iamc: Hourly power consumption|Yearly|{technology}
-  idxcols:
-  - techs
-  - scenario
-  - year
-  - locs
-  - unit
-  name: Hourly power consumption|Yearly
-  path: data/flow_in_sum.csv
-- alias:
-    locs: region
-  iamc: Generation|Percentile 25|{technology}
-  idxcols:
-  - technology
-  - scenario
-  - year
-  - locs
-  - unit
-  name: Generation|Percentile 25
-  path: data/flow_out_25.csv
-- iamc: Generation|Percentile 25|P2L|Electricity
-  idxcols:
-  - scenario
-  - year
-  - region
-  - unit
-  name: Generation|Percentile 25
-  path: data/flow_out_25_const1.csv
-- iamc: Generation|Percentile 25|Heat|Electricity|Others
-  idxcols:
-  - scenario
-  - year
-  - region
-  - unit
-  name: Generation|Percentile 25
-  path: data/flow_out_25_const2.csv
-- iamc: Generation|Percentile 25|{carrier}|{technology}
-  idxcols:
-  - carrier
-  - technology
-  - scenario
-  - year
-  - region
-  - unit
-  name: Generation|Percentile 25
-  path: data/flow_out_25_multi.csv
-- alias:
-    locs: region
-  iamc: Generation|Percentile 50|{technology}
-  idxcols:
-  - technology
-  - scenario
-  - year
-  - locs
-  - unit
-  name: Generation|Percentile 50
-  path: data/flow_out_50.csv
-- iamc: Generation|Percentile 50|P2L|Electricity
-  idxcols:
-  - scenario
-  - year
-  - region
-  - unit
-  name: Generation|Percentile 50
-  path: data/flow_out_50_const1.csv
-- iamc: Generation|Percentile 50|Heat|Electricity|Others
-  idxcols:
-  - scenario
-  - year
-  - region
-  - unit
-  name: Generation|Percentile 50
-  path: data/flow_out_50_const2.csv
-- iamc: Generation|Percentile 50|{carrier}|{technology}
-  idxcols:
-  - carrier
-  - technology
-  - scenario
-  - year
-  - region
-  - unit
-  name: Generation|Percentile 50
-  path: data/flow_out_50_multi.csv
-- alias:
-    locs: region
-  iamc: Generation|Summer Peak|{technology}
-  idxcols:
-  - technology
-  - scenario
-  - year
-  - locs
-  - unit
-  name: Generation|Summer Peak
-  path: data/flow_out_summer_peak.csv
-- iamc: Generation|Summer Peak|P2L|Electricity
-  idxcols:
-  - scenario
-  - year
-  - region
-  - unit
-  name: Generation|Summer Peak
-  path: data/flow_out_summer_peak_const1.csv
-- iamc: Generation|Summer Peak|Heat|Electricity|Others
-  idxcols:
-  - scenario
-  - year
-  - region
-  - unit
-  name: Generation|Summer Peak
-  path: data/flow_out_summer_peak_const2.csv
-- iamc: Generation|Summer Peak|{carrier}|{technology}
-  idxcols:
-  - carrier
-  - technology
-  - scenario
-  - year
-  - region
-  - unit
-  name: Generation|Summer Peak
-  path: data/flow_out_summer_peak_multi.csv
-- alias:
-    locs: region
-  iamc: Generation|Winter Peak|{technology}
-  idxcols:
-  - technology
-  - scenario
-  - year
-  - locs
-  - unit
-  name: Generation|Winter Peak
-  path: data/flow_out_winter_peak.csv
-- iamc: Generation|Winter Peak|P2L|Electricity
-  idxcols:
-  - scenario
-  - year
-  - region
-  - unit
-  name: Generation|Winter Peak
-  path: data/flow_out_winter_peak_const1.csv
-- iamc: Generation|Winter Peak|Heat|Electricity|Others
-  idxcols:
-  - scenario
-  - year
-  - region
-  - unit
-  name: Generation|Winter Peak
-  path: data/flow_out_winter_peak_const2.csv
-- iamc: Generation|Winter Peak|{carrier}|{technology}
-  idxcols:
-  - carrier
-  - technology
-  - scenario
-  - year
-  - region
-  - unit
-  name: Generation|Winter Peak
-  path: data/flow_out_winter_peak_multi.csv
-- alias:
-    locs: region
-  iamc: Generation|Yearly|{technology}
-  idxcols:
-  - technology
-  - scenario
-  - year
-  - locs
-  - unit
-  name: Generation|Yearly
-  path: data/flow_out_sum.csv
-- iamc: Generation|Yearly|P2L|Electricity
-  idxcols:
-  - scenario
-  - year
-  - region
-  - unit
-  name: Generation|Yearly
-  path: data/flow_out_sum_const1.csv
-- iamc: Generation|Yearly|Heat|Electricity|Others
-  idxcols:
-  - scenario
-  - year
-  - region
-  - unit
-  name: Generation|Yearly
-  path: data/flow_out_sum_const2.csv
-- iamc: Generation|Yearly|{carrier}|{technology}
-  idxcols:
-  - carrier
-  - technology
-  - scenario
-  - year
-  - region
-  - unit
-  name: Generation|Yearly
-  path: data/flow_out_sum_multi.csv
+  path: nameplate_capacity.csv

@@ -1,29 +1,11 @@
 name,iamc
-ccgt,Electricity|Gas
-open_field_pv,Electricity|Solar|Open field
-roof_mounted_pv,Electricity|Solar|Rooftop PV
-wind_onshore,Electricity|Wind|Onshore
-wind_offshore,Electricity|Wind|Offshore
-hydro_reservoir,Electricity|Hydro|dam
-hydro_run_of_river,Electricity|Hydro|river
-nuclear,Electricity|Nuclear
-chp_biofuel_extraction,Solid bio and waste|Primary solid biomass
-chp_wte_back_pressure,Solid bio and waste|Waste
-hydrogen_storage,Flexibility|Hydrogen Storage
-eu_import,Flexibility|Interconnect Importing Capacity
-hp,Heat|Electricity|Heat Pumps
-electrolysis,Hydrogen|Electricity
-hydrogen_to_methane,P2G|Electricity
-electric_heater,Electricity|Heating
-electric_hob,Electricity|Heating
-light_transport_ev,Electricity|Road
-heavy_transport_ev,Electricity|Road
-methane_boiler,Heat|Gas
-gas_hob,Heat|Gas
-chp_methane_extraction,Heat|Gas
-battery,Flexibility|Electricity Storage
-pumped_hydro,Flexibility|Electricity Storage
-heat_storage_big,Flexibility|Heat Storage
-heat_storage_small,Flexibility|Heat Storage
-hydrogen_to_methanol,P2L|Electricity
-hydrogen_to_liquids,P2L|Electricity
+coal_power_plant,Coal
+ccgt,Gas|CCGT
+pumped_hydro,Hydro|Pumped Storage
+hydro_reservoir,Hydro|Reservoir
+hydro_run_of_river,Hydro|Run of River
+nuclear,Nuclear
+wind_offshore,Wind|Offshore
+wind_onshore,Wind|Onshore
+waste_supply,Primary Energy|Other
+dac,Direct Air Capture

@@ -12,5 +12,19 @@ accurate
   important for dataset metadata
 - `technology.csv`: technology definitions for IAMC conversion
 - `carrier.csv`: carrier definitions for IAMC conversion
-- `data/*.csv`: datasets
+- `*.csv`: datasets (besides the two above)
 - `datapackage.json`: data package metadata
+
+## Example commands
+
+- Create the package (writes the `datapackage.json` file)
+
+    $ friendly_data create index.yaml --metadata=conf.yaml --inplace
+
+- Describe the data package
+
+    $ friendly_data describe .
+
+- Convert to IAMC (written to `iamc.csv`)
+
+    $ friendly_data to-iamc conf.yaml index.yaml iamc.csv

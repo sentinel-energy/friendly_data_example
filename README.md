@@ -19,12 +19,12 @@ accurate
 
 - Create the package (writes the `datapackage.json` file)
 
-    $ friendly_data create index.yaml --metadata=conf.yaml --inplace
+      $ friendly_data create index.yaml --metadata=conf.yaml --inplace
 
 - Describe the data package
 
-    $ friendly_data describe .
+      $ friendly_data describe .
 
 - Convert to IAMC (written to `iamc.csv`)
 
-    $ friendly_data to-iamc conf.yaml index.yaml iamc.csv
+      $ friendly_data to-iamc conf.yaml index.yaml iamc.csv

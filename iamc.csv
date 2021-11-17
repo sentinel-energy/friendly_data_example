@@ -1,0 +1,400 @@
+model,scenario,region,variable,unit,year,value
+calliope,diag-npi,CHE,Fixed Cost|Electricity|Fossil,billion_2015eur_per_tw_per_year,2030,14.212137600000002
+calliope,diag-npi,DEU,Fixed Cost|Electricity|Fossil,billion_2015eur_per_tw_per_year,2030,14.212137600000004
+calliope,diag-npi,DNK,Fixed Cost|Electricity|Fossil,billion_2015eur_per_tw_per_year,2030,14.212137600000002
+calliope,diag-npi,ESP,Fixed Cost|Electricity|Fossil,billion_2015eur_per_tw_per_year,2030,14.212137600000004
+calliope,diag-npi,FRA,Fixed Cost|Electricity|Fossil,billion_2015eur_per_tw_per_year,2030,14.212137600000004
+calliope,diag-npi,GBR,Fixed Cost|Electricity|Fossil,billion_2015eur_per_tw_per_year,2030,14.212137600000004
+calliope,diag-npi,ITA,Fixed Cost|Electricity|Fossil,billion_2015eur_per_tw_per_year,2030,14.212137600000004
+calliope,diag-npi,MNE,Fixed Cost|Electricity|Fossil,billion_2015eur_per_tw_per_year,2030,14.212137600000002
+calliope,diag-npi,NLD,Fixed Cost|Electricity|Fossil,billion_2015eur_per_tw_per_year,2030,14.212137600000002
+calliope,diag-npi,NOR,Fixed Cost|Electricity|Fossil,billion_2015eur_per_tw_per_year,2030,14.212137600000004
+calliope,diag-npi,POL,Fixed Cost|Electricity|Fossil,billion_2015eur_per_tw_per_year,2030,14.212137600000002
+calliope,diag-npi,PRT,Fixed Cost|Electricity|Fossil,billion_2015eur_per_tw_per_year,2030,14.212137600000002
+calliope,diag-npi,SWE,Fixed Cost|Electricity|Fossil,billion_2015eur_per_tw_per_year,2030,14.212137600000002
+calliope,diag-npi,CHE,Fixed Cost|Electricity|Hydro,billion_2015eur_per_tw_per_year,2030,269.7
+calliope,diag-npi,DEU,Fixed Cost|Electricity|Hydro,billion_2015eur_per_tw_per_year,2030,269.7
+calliope,diag-npi,DNK,Fixed Cost|Electricity|Hydro,billion_2015eur_per_tw_per_year,2030,269.7
+calliope,diag-npi,ESP,Fixed Cost|Electricity|Hydro,billion_2015eur_per_tw_per_year,2030,269.70000000000005
+calliope,diag-npi,FRA,Fixed Cost|Electricity|Hydro,billion_2015eur_per_tw_per_year,2030,269.7000000000001
+calliope,diag-npi,GBR,Fixed Cost|Electricity|Hydro,billion_2015eur_per_tw_per_year,2030,269.7
+calliope,diag-npi,ITA,Fixed Cost|Electricity|Hydro,billion_2015eur_per_tw_per_year,2030,269.7
+calliope,diag-npi,MNE,Fixed Cost|Electricity|Hydro,billion_2015eur_per_tw_per_year,2030,269.7
+calliope,diag-npi,NLD,Fixed Cost|Electricity|Hydro,billion_2015eur_per_tw_per_year,2030,269.7
+calliope,diag-npi,NOR,Fixed Cost|Electricity|Hydro,billion_2015eur_per_tw_per_year,2030,269.7
+calliope,diag-npi,POL,Fixed Cost|Electricity|Hydro,billion_2015eur_per_tw_per_year,2030,269.7
+calliope,diag-npi,PRT,Fixed Cost|Electricity|Hydro,billion_2015eur_per_tw_per_year,2030,269.7
+calliope,diag-npi,SWE,Fixed Cost|Electricity|Hydro,billion_2015eur_per_tw_per_year,2030,269.7
+calliope,diag-npi,CHE,Fixed Cost|Electricity|Solar|PV,billion_2015eur_per_tw_per_year,2030,15.15
+calliope,diag-npi,DEU,Fixed Cost|Electricity|Solar|PV,billion_2015eur_per_tw_per_year,2030,15.150000000000004
+calliope,diag-npi,DNK,Fixed Cost|Electricity|Solar|PV,billion_2015eur_per_tw_per_year,2030,15.15
+calliope,diag-npi,ESP,Fixed Cost|Electricity|Solar|PV,billion_2015eur_per_tw_per_year,2030,15.15
+calliope,diag-npi,FRA,Fixed Cost|Electricity|Solar|PV,billion_2015eur_per_tw_per_year,2030,15.150000000000004
+calliope,diag-npi,GBR,Fixed Cost|Electricity|Solar|PV,billion_2015eur_per_tw_per_year,2030,15.15
+calliope,diag-npi,ITA,Fixed Cost|Electricity|Solar|PV,billion_2015eur_per_tw_per_year,2030,15.15
+calliope,diag-npi,MNE,Fixed Cost|Electricity|Solar|PV,billion_2015eur_per_tw_per_year,2030,15.15
+calliope,diag-npi,NLD,Fixed Cost|Electricity|Solar|PV,billion_2015eur_per_tw_per_year,2030,15.15
+calliope,diag-npi,NOR,Fixed Cost|Electricity|Solar|PV,billion_2015eur_per_tw_per_year,2030,15.150000000000004
+calliope,diag-npi,POL,Fixed Cost|Electricity|Solar|PV,billion_2015eur_per_tw_per_year,2030,15.15
+calliope,diag-npi,PRT,Fixed Cost|Electricity|Solar|PV,billion_2015eur_per_tw_per_year,2030,15.15
+calliope,diag-npi,SWE,Fixed Cost|Electricity|Solar|PV,billion_2015eur_per_tw_per_year,2030,15.15
+calliope,diag-npi,CHE,Fixed Cost|Electricity|Wind,billion_2015eur_per_tw_per_year,2030,47.7515
+calliope,diag-npi,DEU,Fixed Cost|Electricity|Wind,billion_2015eur_per_tw_per_year,2030,47.75149999999999
+calliope,diag-npi,DNK,Fixed Cost|Electricity|Wind,billion_2015eur_per_tw_per_year,2030,47.7515
+calliope,diag-npi,ESP,Fixed Cost|Electricity|Wind,billion_2015eur_per_tw_per_year,2030,47.7515
+calliope,diag-npi,FRA,Fixed Cost|Electricity|Wind,billion_2015eur_per_tw_per_year,2030,47.75149999999999
+calliope,diag-npi,GBR,Fixed Cost|Electricity|Wind,billion_2015eur_per_tw_per_year,2030,47.7515
+calliope,diag-npi,ITA,Fixed Cost|Electricity|Wind,billion_2015eur_per_tw_per_year,2030,47.7515
+calliope,diag-npi,MNE,Fixed Cost|Electricity|Wind,billion_2015eur_per_tw_per_year,2030,47.7515
+calliope,diag-npi,NLD,Fixed Cost|Electricity|Wind,billion_2015eur_per_tw_per_year,2030,47.7515
+calliope,diag-npi,NOR,Fixed Cost|Electricity|Wind,billion_2015eur_per_tw_per_year,2030,47.75149999999999
+calliope,diag-npi,POL,Fixed Cost|Electricity|Wind,billion_2015eur_per_tw_per_year,2030,47.7515
+calliope,diag-npi,PRT,Fixed Cost|Electricity|Wind,billion_2015eur_per_tw_per_year,2030,47.7515
+calliope,diag-npi,SWE,Fixed Cost|Electricity|Wind,billion_2015eur_per_tw_per_year,2030,47.7515
+calliope,diag-npi,CHE,Fixed Cost|Electricity|Nuclear,billion_2015eur_per_tw_per_year,2030,76.116
+calliope,diag-npi,CHE,Fixed Cost|Electricity|Hydro|Pumped Storage,billion_2015eur_per_tw_per_year,2030,7.357260000000001
+calliope,diag-npi,DEU,Fixed Cost|Electricity|Nuclear,billion_2015eur_per_tw_per_year,2030,76.116
+calliope,diag-npi,DEU,Fixed Cost|Electricity|Hydro|Pumped Storage,billion_2015eur_per_tw_per_year,2030,7.357260000000002
+calliope,diag-npi,DNK,Fixed Cost|Electricity|Hydro|Pumped Storage,billion_2015eur_per_tw_per_year,2030,7.357260000000001
+calliope,diag-npi,ESP,Fixed Cost|Electricity|Nuclear,billion_2015eur_per_tw_per_year,2030,76.116
+calliope,diag-npi,ESP,Fixed Cost|Electricity|Hydro|Pumped Storage,billion_2015eur_per_tw_per_year,2030,7.35726
+calliope,diag-npi,FRA,Fixed Cost|Electricity|Nuclear,billion_2015eur_per_tw_per_year,2030,76.116
+calliope,diag-npi,FRA,Fixed Cost|Electricity|Hydro|Pumped Storage,billion_2015eur_per_tw_per_year,2030,7.357259999999998
+calliope,diag-npi,GBR,Fixed Cost|Electricity|Nuclear,billion_2015eur_per_tw_per_year,2030,76.116
+calliope,diag-npi,GBR,Fixed Cost|Electricity|Hydro|Pumped Storage,billion_2015eur_per_tw_per_year,2030,7.357260000000001
+calliope,diag-npi,ITA,Fixed Cost|Electricity|Hydro|Pumped Storage,billion_2015eur_per_tw_per_year,2030,7.357260000000001
+calliope,diag-npi,MNE,Fixed Cost|Electricity|Hydro|Pumped Storage,billion_2015eur_per_tw_per_year,2030,7.357260000000001
+calliope,diag-npi,NLD,Fixed Cost|Electricity|Nuclear,billion_2015eur_per_tw_per_year,2030,76.116
+calliope,diag-npi,NLD,Fixed Cost|Electricity|Hydro|Pumped Storage,billion_2015eur_per_tw_per_year,2030,7.357260000000001
+calliope,diag-npi,NOR,Fixed Cost|Electricity|Hydro|Pumped Storage,billion_2015eur_per_tw_per_year,2030,7.357260000000002
+calliope,diag-npi,POL,Fixed Cost|Electricity|Hydro|Pumped Storage,billion_2015eur_per_tw_per_year,2030,7.357260000000001
+calliope,diag-npi,PRT,Fixed Cost|Electricity|Hydro|Pumped Storage,billion_2015eur_per_tw_per_year,2030,7.357260000000001
+calliope,diag-npi,SWE,Fixed Cost|Electricity|Nuclear,billion_2015eur_per_tw_per_year,2030,76.116
+calliope,diag-npi,SWE,Fixed Cost|Electricity|Hydro|Pumped Storage,billion_2015eur_per_tw_per_year,2030,7.357260000000001
+calliope,diag-npi,DEU,Emission Rate|CO2|Electricity|Coal,MtCO2_per_twh,2030,0.34
+calliope,diag-npi,DNK,Emission Rate|CO2|Electricity|Coal,MtCO2_per_twh,2030,0.34
+calliope,diag-npi,ESP,Emission Rate|CO2|Electricity|Coal,MtCO2_per_twh,2030,0.34
+calliope,diag-npi,FRA,Emission Rate|CO2|Electricity|Coal,MtCO2_per_twh,2030,0.34
+calliope,diag-npi,GBR,Emission Rate|CO2|Electricity|Coal,MtCO2_per_twh,2030,0.34
+calliope,diag-npi,ITA,Emission Rate|CO2|Electricity|Coal,MtCO2_per_twh,2030,0.34
+calliope,diag-npi,MNE,Emission Rate|CO2|Electricity|Coal,MtCO2_per_twh,2030,0.34
+calliope,diag-npi,NLD,Emission Rate|CO2|Electricity|Coal,MtCO2_per_twh,2030,0.34
+calliope,diag-npi,POL,Emission Rate|CO2|Electricity|Coal,MtCO2_per_twh,2030,0.34
+calliope,diag-npi,PRT,Emission Rate|CO2|Electricity|Coal,MtCO2_per_twh,2030,0.34
+calliope,diag-npi,SWE,Emission Rate|CO2|Electricity|Coal,MtCO2_per_twh,2030,0.34
+calliope,diag-npi,CHE,Primary Energy|Hydro,twh,2030,31.952518182299166
+calliope,diag-npi,CHE,Primary Energy|Hydro,twh,2050,31.24849095219987
+calliope,diag-npi,DEU,Primary Energy|Hydro,twh,2030,20.612516664158193
+calliope,diag-npi,DEU,Primary Energy|Hydro,twh,2050,19.69058664522681
+calliope,diag-npi,ESP,Primary Energy|Hydro,twh,2030,34.279011271060796
+calliope,diag-npi,ESP,Primary Energy|Hydro,twh,2050,34.06813287901035
+calliope,diag-npi,FRA,Primary Energy|Hydro,twh,2030,66.09660532371338
+calliope,diag-npi,FRA,Primary Energy|Hydro,twh,2050,63.988497568629484
+calliope,diag-npi,GBR,Primary Energy|Hydro,twh,2030,5.488404187791696
+calliope,diag-npi,GBR,Primary Energy|Hydro,twh,2050,5.165494454305151
+calliope,diag-npi,ITA,Primary Energy|Hydro,twh,2030,48.31732962950288
+calliope,diag-npi,ITA,Primary Energy|Hydro,twh,2050,45.343845426212354
+calliope,diag-npi,MNE,Primary Energy|Hydro,twh,2030,2.089637569514636
+calliope,diag-npi,MNE,Primary Energy|Hydro,twh,2050,2.0279079101063333
+calliope,diag-npi,NOR,Primary Energy|Hydro,twh,2030,138.4337374585565
+calliope,diag-npi,NOR,Primary Energy|Hydro,twh,2050,138.43507508960394
+calliope,diag-npi,POL,Primary Energy|Hydro,twh,2030,1.996762767078622
+calliope,diag-npi,POL,Primary Energy|Hydro,twh,2050,1.9070772728734042
+calliope,diag-npi,PRT,Primary Energy|Hydro,twh,2030,12.286929128273862
+calliope,diag-npi,PRT,Primary Energy|Hydro,twh,2050,11.432915448016617
+calliope,diag-npi,SWE,Primary Energy|Hydro,twh,2030,62.3318731124244
+calliope,diag-npi,SWE,Primary Energy|Hydro,twh,2050,62.33282150597497
+calliope,diag-npi,CHE,Primary Energy|Solar,twh,2030,32.62826519006012
+calliope,diag-npi,CHE,Primary Energy|Solar,twh,2050,41.037840096538126
+calliope,diag-npi,DEU,Primary Energy|Solar,twh,2030,191.56975066121873
+calliope,diag-npi,DEU,Primary Energy|Solar,twh,2050,519.9845325969263
+calliope,diag-npi,DNK,Primary Energy|Solar,twh,2030,0.006380390273796201
+calliope,diag-npi,DNK,Primary Energy|Solar,twh,2050,0.0054466713296569
+calliope,diag-npi,ESP,Primary Energy|Solar,twh,2030,295.91331463001524
+calliope,diag-npi,ESP,Primary Energy|Solar,twh,2050,345.5283169470022
+calliope,diag-npi,FRA,Primary Energy|Solar,twh,2030,211.71343756722615
+calliope,diag-npi,FRA,Primary Energy|Solar,twh,2050,316.0287455091129
+calliope,diag-npi,GBR,Primary Energy|Solar,twh,2030,0.015019664150787999
+calliope,diag-npi,GBR,Primary Energy|Solar,twh,2050,43.0727946128859
+calliope,diag-npi,ITA,Primary Energy|Solar,twh,2030,356.28449427244783
+calliope,diag-npi,ITA,Primary Energy|Solar,twh,2050,427.55295178764163
+calliope,diag-npi,MNE,Primary Energy|Solar,twh,2030,7.539445837682696
+calliope,diag-npi,MNE,Primary Energy|Solar,twh,2050,7.768088313962212
+calliope,diag-npi,NLD,Primary Energy|Solar,twh,2030,0.0094468761438751
+calliope,diag-npi,NLD,Primary Energy|Solar,twh,2050,0.0205139166006816
+calliope,diag-npi,NOR,Primary Energy|Solar,twh,2030,0.0058442868434726
+calliope,diag-npi,NOR,Primary Energy|Solar,twh,2050,0.009041830640962499
+calliope,diag-npi,POL,Primary Energy|Solar,twh,2030,37.35871762690319
+calliope,diag-npi,POL,Primary Energy|Solar,twh,2050,214.68286603749155
+calliope,diag-npi,PRT,Primary Energy|Solar,twh,2030,63.9700632147715
+calliope,diag-npi,PRT,Primary Energy|Solar,twh,2050,18.818802099580424
+calliope,diag-npi,SWE,Primary Energy|Solar,twh,2030,0.006263380674616801
+calliope,diag-npi,SWE,Primary Energy|Solar,twh,2050,32.36627140514986
+calliope,diag-npi,CHE,Primary Energy|Wind,twh,2030,0.0007493784045182
+calliope,diag-npi,CHE,Primary Energy|Wind,twh,2050,0.0003642715620888
+calliope,diag-npi,DEU,Primary Energy|Wind,twh,2030,0.0285377128847511
+calliope,diag-npi,DEU,Primary Energy|Wind,twh,2050,119.59905305535354
+calliope,diag-npi,DNK,Primary Energy|Wind,twh,2030,255.12251226155175
+calliope,diag-npi,DNK,Primary Energy|Wind,twh,2050,299.4383762286721
+calliope,diag-npi,ESP,Primary Energy|Wind,twh,2030,0.06492265229294529
+calliope,diag-npi,ESP,Primary Energy|Wind,twh,2050,131.48701605711327
+calliope,diag-npi,FRA,Primary Energy|Wind,twh,2030,70.45281886502733
+calliope,diag-npi,FRA,Primary Energy|Wind,twh,2050,448.6956061943413
+calliope,diag-npi,GBR,Primary Energy|Wind,twh,2030,340.33260128741125
+calliope,diag-npi,GBR,Primary Energy|Wind,twh,2050,657.5261547608314
+calliope,diag-npi,ITA,Primary Energy|Wind,twh,2030,0.0346633000779633
+calliope,diag-npi,ITA,Primary Energy|Wind,twh,2050,79.85864016232921
+calliope,diag-npi,MNE,Primary Energy|Wind,twh,2030,0.0014222342634555999
+calliope,diag-npi,MNE,Primary Energy|Wind,twh,2050,0.0007911360267303999
+calliope,diag-npi,NLD,Primary Energy|Wind,twh,2030,158.2324675308952
+calliope,diag-npi,NLD,Primary Energy|Wind,twh,2050,259.65470751340837
+calliope,diag-npi,NOR,Primary Energy|Wind,twh,2030,0.026587699319523102
+calliope,diag-npi,NOR,Primary Energy|Wind,twh,2050,26.132771003316986
+calliope,diag-npi,POL,Primary Energy|Wind,twh,2030,0.020829743115837
+calliope,diag-npi,POL,Primary Energy|Wind,twh,2050,53.58752957303224
+calliope,diag-npi,PRT,Primary Energy|Wind,twh,2030,3.589819686441384
+calliope,diag-npi,PRT,Primary Energy|Wind,twh,2050,143.74295807927868
+calliope,diag-npi,SWE,Primary Energy|Wind,twh,2030,0.019867861639369398
+calliope,diag-npi,SWE,Primary Energy|Wind,twh,2050,136.84573808173025
+calliope,diag-npi,CHE,Primary Energy|Fossil,twh,2030,18.668866257092034
+calliope,diag-npi,CHE,Primary Energy|Fossil,twh,2050,5.626538728349747
+calliope,diag-npi,DEU,Primary Energy|Fossil,twh,2030,75.99917348401497
+calliope,diag-npi,DEU,Primary Energy|Fossil,twh,2050,50.00452473604536
+calliope,diag-npi,DNK,Primary Energy|Fossil,twh,2030,21.597281438198983
+calliope,diag-npi,DNK,Primary Energy|Fossil,twh,2050,14.451196989815491
+calliope,diag-npi,ESP,Primary Energy|Fossil,twh,2030,118.34803553403265
+calliope,diag-npi,ESP,Primary Energy|Fossil,twh,2050,79.53846318863383
+calliope,diag-npi,FRA,Primary Energy|Fossil,twh,2030,161.70261846278748
+calliope,diag-npi,FRA,Primary Energy|Fossil,twh,2050,108.02243975428313
+calliope,diag-npi,GBR,Primary Energy|Fossil,twh,2030,65.04775267223238
+calliope,diag-npi,GBR,Primary Energy|Fossil,twh,2050,42.99733352578592
+calliope,diag-npi,ITA,Primary Energy|Fossil,twh,2030,64.81686341049198
+calliope,diag-npi,ITA,Primary Energy|Fossil,twh,2050,42.95072523065458
+calliope,diag-npi,MNE,Primary Energy|Fossil,twh,2030,0.0229989807885403
+calliope,diag-npi,MNE,Primary Energy|Fossil,twh,2050,0.003618072080783
+calliope,diag-npi,NLD,Primary Energy|Fossil,twh,2030,10.977233881109814
+calliope,diag-npi,NLD,Primary Energy|Fossil,twh,2050,7.082412737519238
+calliope,diag-npi,NOR,Primary Energy|Fossil,twh,2030,5.940198716538651
+calliope,diag-npi,NOR,Primary Energy|Fossil,twh,2050,8.349860009479277
+calliope,diag-npi,POL,Primary Energy|Fossil,twh,2030,53.918761873213086
+calliope,diag-npi,POL,Primary Energy|Fossil,twh,2050,36.03446367909245
+calliope,diag-npi,PRT,Primary Energy|Fossil,twh,2030,21.41708619558844
+calliope,diag-npi,PRT,Primary Energy|Fossil,twh,2050,14.531488668834008
+calliope,diag-npi,SWE,Primary Energy|Fossil,twh,2030,43.28409368526068
+calliope,diag-npi,SWE,Primary Energy|Fossil,twh,2050,28.97126103831728
+calliope,diag-npi,DEU,Primary Energy|Fossil,twh,2030,951.8594342647574
+calliope,diag-npi,DEU,Primary Energy|Fossil,twh,2050,435.47410640640834
+calliope,diag-npi,DNK,Primary Energy|Fossil,twh,2030,34.11288345909779
+calliope,diag-npi,DNK,Primary Energy|Fossil,twh,2050,0.0029170052430449
+calliope,diag-npi,ESP,Primary Energy|Fossil,twh,2030,109.83464739191912
+calliope,diag-npi,ESP,Primary Energy|Fossil,twh,2050,66.6480724349425
+calliope,diag-npi,FRA,Primary Energy|Fossil,twh,2030,25.983089624090976
+calliope,diag-npi,FRA,Primary Energy|Fossil,twh,2050,14.338253878622924
+calliope,diag-npi,GBR,Primary Energy|Fossil,twh,2030,230.333941403092
+calliope,diag-npi,GBR,Primary Energy|Fossil,twh,2050,0.0053752710540959
+calliope,diag-npi,ITA,Primary Energy|Fossil,twh,2030,124.81647027985464
+calliope,diag-npi,ITA,Primary Energy|Fossil,twh,2050,100.56235960032896
+calliope,diag-npi,MNE,Primary Energy|Fossil,twh,2030,1.604554679646326
+calliope,diag-npi,MNE,Primary Energy|Fossil,twh,2050,0.9415689301889888
+calliope,diag-npi,NLD,Primary Energy|Fossil,twh,2030,92.20665018441704
+calliope,diag-npi,NLD,Primary Energy|Fossil,twh,2050,41.159883238724056
+calliope,diag-npi,POL,Primary Energy|Fossil,twh,2030,632.2225437423858
+calliope,diag-npi,POL,Primary Energy|Fossil,twh,2050,288.20441270318787
+calliope,diag-npi,PRT,Primary Energy|Fossil,twh,2030,23.97614064385316
+calliope,diag-npi,PRT,Primary Energy|Fossil,twh,2050,3.878905978900876
+calliope,diag-npi,SWE,Primary Energy|Fossil,twh,2030,2.845644122325333
+calliope,diag-npi,SWE,Primary Energy|Fossil,twh,2050,0.0006376760934997
+calliope,diag-npi,CHE,Primary Energy|Fossil,twh,2030,0.0105225019012907
+calliope,diag-npi,CHE,Primary Energy|Fossil,twh,2050,0.0033573294272504
+calliope,diag-npi,DNK,Primary Energy|Fossil,twh,2050,748.8663194752315
+calliope,diag-npi,ESP,Primary Energy|Fossil,twh,2030,748.2296037539812
+calliope,diag-npi,MNE,Primary Energy|Fossil,twh,2030,7.314932946186461e-06
+calliope,diag-npi,MNE,Primary Energy|Fossil,twh,2050,1.0583879441755097e-06
+calliope,diag-npi,NOR,Primary Energy|Fossil,twh,2030,0.000324800660889
+calliope,diag-npi,NOR,Primary Energy|Fossil,twh,2050,0.0004316038879489
+calliope,diag-npi,CHE,Primary Energy|Fossil,twh,2030,85.69022394942252
+calliope,diag-npi,CHE,Primary Energy|Fossil,twh,2050,69.58616056498742
+calliope,diag-npi,DEU,Primary Energy|Fossil,twh,2030,773.3254826859502
+calliope,diag-npi,DEU,Primary Energy|Fossil,twh,2050,708.3002935021692
+calliope,diag-npi,DNK,Primary Energy|Fossil,twh,2030,81.11961393383541
+calliope,diag-npi,DNK,Primary Energy|Fossil,twh,2050,62.245164534166925
+calliope,diag-npi,ESP,Primary Energy|Fossil,twh,2030,323.4516202495061
+calliope,diag-npi,ESP,Primary Energy|Fossil,twh,2050,151.1985581677044
+calliope,diag-npi,FRA,Primary Energy|Fossil,twh,2030,680.1492823180847
+calliope,diag-npi,FRA,Primary Energy|Fossil,twh,2050,549.8696882618824
+calliope,diag-npi,GBR,Primary Energy|Fossil,twh,2030,540.0634784705887
+calliope,diag-npi,GBR,Primary Energy|Fossil,twh,2050,357.49579264816794
+calliope,diag-npi,ITA,Primary Energy|Fossil,twh,2030,465.9571003050003
+calliope,diag-npi,ITA,Primary Energy|Fossil,twh,2050,379.3148368634572
+calliope,diag-npi,MNE,Primary Energy|Fossil,twh,2030,2.037087061516582
+calliope,diag-npi,MNE,Primary Energy|Fossil,twh,2050,1.9046270464414192
+calliope,diag-npi,NLD,Primary Energy|Fossil,twh,2030,168.9035704761328
+calliope,diag-npi,NLD,Primary Energy|Fossil,twh,2050,156.8709721389295
+calliope,diag-npi,NOR,Primary Energy|Fossil,twh,2030,65.33953594431762
+calliope,diag-npi,NOR,Primary Energy|Fossil,twh,2050,66.9035419295994
+calliope,diag-npi,POL,Primary Energy|Fossil,twh,2030,293.19650478324866
+calliope,diag-npi,POL,Primary Energy|Fossil,twh,2050,256.44553913233887
+calliope,diag-npi,PRT,Primary Energy|Fossil,twh,2030,56.14379662618812
+calliope,diag-npi,PRT,Primary Energy|Fossil,twh,2050,20.631505812198743
+calliope,diag-npi,SWE,Primary Energy|Fossil,twh,2030,123.86429783665297
+calliope,diag-npi,SWE,Primary Energy|Fossil,twh,2050,84.51442342915135
+calliope,diag-npi,CHE,Primary Energy|Nuclear,twh,2030,62.78803794129926
+calliope,diag-npi,DEU,Primary Energy|Nuclear,twh,2030,224.96177256922013
+calliope,diag-npi,ESP,Primary Energy|Nuclear,twh,2030,124.37675252807465
+calliope,diag-npi,FRA,Primary Energy|Nuclear,twh,2030,1169.2068212030863
+calliope,diag-npi,GBR,Primary Energy|Nuclear,twh,2030,235.25567601949533
+calliope,diag-npi,NLD,Primary Energy|Nuclear,twh,2030,9.158299652374907
+calliope,diag-npi,SWE,Primary Energy|Nuclear,twh,2030,177.30759793982585
+calliope,diag-npi,FRA,Primary Energy|Nuclear,twh,2050,385.7903982040389
+calliope,diag-npi,GBR,Primary Energy|Nuclear,twh,2050,146.77551132884082
+calliope,diag-npi,CHE,Capacity|Electricity|Hydro,tw,2030,0.013180809799999998
+calliope,diag-npi,CHE,Capacity|Electricity|Hydro,tw,2050,0.013180809799999998
+calliope,diag-npi,DEU,Capacity|Electricity|Hydro,tw,2030,0.0037356955499999
+calliope,diag-npi,DEU,Capacity|Electricity|Hydro,tw,2050,0.0037356955499999
+calliope,diag-npi,ESP,Capacity|Electricity|Hydro,tw,2030,0.0085112432475
+calliope,diag-npi,ESP,Capacity|Electricity|Hydro,tw,2050,0.0085112432475
+calliope,diag-npi,FRA,Capacity|Electricity|Hydro,tw,2030,0.015800970779051
+calliope,diag-npi,FRA,Capacity|Electricity|Hydro,tw,2050,0.015800970779051
+calliope,diag-npi,GBR,Capacity|Electricity|Hydro,tw,2030,0.0013724750000000002
+calliope,diag-npi,GBR,Capacity|Electricity|Hydro,tw,2050,0.0013724750000000002
+calliope,diag-npi,ITA,Capacity|Electricity|Hydro,tw,2030,0.0114301999999999
+calliope,diag-npi,ITA,Capacity|Electricity|Hydro,tw,2050,0.0114301999999999
+calliope,diag-npi,MNE,Capacity|Electricity|Hydro,tw,2030,0.000675321
+calliope,diag-npi,MNE,Capacity|Electricity|Hydro,tw,2050,0.000675321
+calliope,diag-npi,NOR,Capacity|Electricity|Hydro,tw,2030,0.0317543099999999
+calliope,diag-npi,NOR,Capacity|Electricity|Hydro,tw,2050,0.03175431
+calliope,diag-npi,POL,Capacity|Electricity|Hydro,tw,2030,0.00042690673820624397
+calliope,diag-npi,POL,Capacity|Electricity|Hydro,tw,2050,0.00042690673820624397
+calliope,diag-npi,PRT,Capacity|Electricity|Hydro,tw,2030,0.0029509000000000002
+calliope,diag-npi,PRT,Capacity|Electricity|Hydro,tw,2050,0.0029509000000000002
+calliope,diag-npi,SWE,Capacity|Electricity|Hydro,tw,2030,0.013669063516863
+calliope,diag-npi,SWE,Capacity|Electricity|Hydro,tw,2050,0.013669063516863
+calliope,diag-npi,CHE,Capacity|Electricity|Solar|PV,tw,2030,0.02834441766536082
+calliope,diag-npi,CHE,Capacity|Electricity|Solar|PV,tw,2050,0.035650137803966996
+calliope,diag-npi,DEU,Capacity|Electricity|Solar|PV,tw,2030,0.16962128176302202
+calliope,diag-npi,DEU,Capacity|Electricity|Solar|PV,tw,2050,0.4675751425999136
+calliope,diag-npi,DNK,Capacity|Electricity|Solar|PV,tw,2030,6.623759686548382e-06
+calliope,diag-npi,DNK,Capacity|Electricity|Solar|PV,tw,2050,6.118633902437709e-06
+calliope,diag-npi,ESP,Capacity|Electricity|Solar|PV,tw,2030,0.20416843377707244
+calliope,diag-npi,ESP,Capacity|Electricity|Solar|PV,tw,2050,0.2375966846568261
+calliope,diag-npi,FRA,Capacity|Electricity|Solar|PV,tw,2030,0.17310879543420135
+calliope,diag-npi,FRA,Capacity|Electricity|Solar|PV,tw,2050,0.26056508264466993
+calliope,diag-npi,GBR,Capacity|Electricity|Solar|PV,tw,2030,1.6579103614449382e-05
+calliope,diag-npi,GBR,Capacity|Electricity|Solar|PV,tw,2050,0.03971117009961733
+calliope,diag-npi,ITA,Capacity|Electricity|Solar|PV,tw,2030,0.2811972615073094
+calliope,diag-npi,ITA,Capacity|Electricity|Solar|PV,tw,2050,0.337118723131997
+calliope,diag-npi,MNE,Capacity|Electricity|Solar|PV,tw,2030,0.006085385452142315
+calliope,diag-npi,MNE,Capacity|Electricity|Solar|PV,tw,2050,0.006270731186950227
+calliope,diag-npi,NLD,Capacity|Electricity|Solar|PV,tw,2030,9.308368057948048e-06
+calliope,diag-npi,NLD,Capacity|Electricity|Solar|PV,tw,2050,1.9186792237227276e-05
+calliope,diag-npi,NOR,Capacity|Electricity|Solar|PV,tw,2030,9.343315540182584e-06
+calliope,diag-npi,NOR,Capacity|Electricity|Solar|PV,tw,2050,1.2391540052644244e-05
+calliope,diag-npi,POL,Capacity|Electricity|Solar|PV,tw,2030,0.03443045314114929
+calliope,diag-npi,POL,Capacity|Electricity|Solar|PV,tw,2050,0.19920536970860123
+calliope,diag-npi,PRT,Capacity|Electricity|Solar|PV,tw,2030,0.044123513874100045
+calliope,diag-npi,PRT,Capacity|Electricity|Solar|PV,tw,2050,0.013177360453925212
+calliope,diag-npi,SWE,Capacity|Electricity|Solar|PV,tw,2030,7.967914034355067e-06
+calliope,diag-npi,SWE,Capacity|Electricity|Solar|PV,tw,2050,0.03462812727147845
+calliope,diag-npi,CHE,Capacity|Electricity|Wind,tw,2030,1.1204107498624803e-06
+calliope,diag-npi,CHE,Capacity|Electricity|Wind,tw,2050,5.051318828698212e-07
+calliope,diag-npi,DEU,Capacity|Electricity|Wind,tw,2030,1.2754572160899126e-05
+calliope,diag-npi,DEU,Capacity|Electricity|Wind,tw,2050,0.043981071076048865
+calliope,diag-npi,DNK,Capacity|Electricity|Wind,tw,2030,0.06914703945241865
+calliope,diag-npi,DNK,Capacity|Electricity|Wind,tw,2050,0.08139782805164787
+calliope,diag-npi,ESP,Capacity|Electricity|Wind,tw,2030,2.4639440486061403e-05
+calliope,diag-npi,ESP,Capacity|Electricity|Wind,tw,2050,0.04333944735654634
+calliope,diag-npi,FRA,Capacity|Electricity|Wind,tw,2030,0.0206354967615544
+calliope,diag-npi,FRA,Capacity|Electricity|Wind,tw,2050,0.14086266656952606
+calliope,diag-npi,GBR,Capacity|Electricity|Wind,tw,2030,0.08873448866123025
+calliope,diag-npi,GBR,Capacity|Electricity|Wind,tw,2050,0.1687801002221579
+calliope,diag-npi,ITA,Capacity|Electricity|Wind,tw,2030,1.559746991685311e-05
+calliope,diag-npi,ITA,Capacity|Electricity|Wind,tw,2050,0.03364754224989008
+calliope,diag-npi,MNE,Capacity|Electricity|Wind,tw,2030,1.6573432054521897e-06
+calliope,diag-npi,MNE,Capacity|Electricity|Wind,tw,2050,2.895394620606696e-06
+calliope,diag-npi,NLD,Capacity|Electricity|Wind,tw,2030,0.049834233901772725
+calliope,diag-npi,NLD,Capacity|Electricity|Wind,tw,2050,0.0817758470099196
+calliope,diag-npi,NOR,Capacity|Electricity|Wind,tw,2030,1.029949369481196e-05
+calliope,diag-npi,NOR,Capacity|Electricity|Wind,tw,2050,0.00812807454068047
+calliope,diag-npi,POL,Capacity|Electricity|Wind,tw,2030,9.544175483489672e-06
+calliope,diag-npi,POL,Capacity|Electricity|Wind,tw,2050,0.02061264098713147
+calliope,diag-npi,PRT,Capacity|Electricity|Wind,tw,2030,0.0010333938830548357
+calliope,diag-npi,PRT,Capacity|Electricity|Wind,tw,2050,0.04207950822307137
+calliope,diag-npi,SWE,Capacity|Electricity|Wind,tw,2030,7.4954660452075095e-06
+calliope,diag-npi,SWE,Capacity|Electricity|Wind,tw,2050,0.041280160044559554
+calliope,diag-npi,CHE,Capacity|Electricity|Gas|CCGT,tw,2030,7.052268637378355e-07
+calliope,diag-npi,DEU,Capacity|Electricity|Gas|CCGT,tw,2030,9.392077638116888e-07
+calliope,diag-npi,DNK,Capacity|Electricity|Gas|CCGT,tw,2030,7.011482172343103e-07
+calliope,diag-npi,ESP,Capacity|Electricity|Gas|CCGT,tw,2030,1.3933409209781283e-06
+calliope,diag-npi,FRA,Capacity|Electricity|Gas|CCGT,tw,2030,1.984707865537064e-06
+calliope,diag-npi,GBR,Capacity|Electricity|Gas|CCGT,tw,2030,7.410883579386218e-07
+calliope,diag-npi,ITA,Capacity|Electricity|Gas|CCGT,tw,2030,9.917319332282592e-07
+calliope,diag-npi,MNE,Capacity|Electricity|Gas|CCGT,tw,2030,3.566141369606873e-07
+calliope,diag-npi,NLD,Capacity|Electricity|Gas|CCGT,tw,2030,4.048349385313807e-07
+calliope,diag-npi,NOR,Capacity|Electricity|Gas|CCGT,tw,2030,8.443526094276531e-07
+calliope,diag-npi,POL,Capacity|Electricity|Gas|CCGT,tw,2030,7.014707387889643e-07
+calliope,diag-npi,PRT,Capacity|Electricity|Gas|CCGT,tw,2030,6.024323211198322e-07
+calliope,diag-npi,SWE,Capacity|Electricity|Gas|CCGT,tw,2030,5.013577756456487e-07
+calliope,diag-npi,CHE,Capacity|Electricity|Gas|CCGT,tw,2050,6.07989448185238e-07
+calliope,diag-npi,DEU,Capacity|Electricity|Gas|CCGT,tw,2050,2.105494375082921e-06
+calliope,diag-npi,DNK,Capacity|Electricity|Gas|CCGT,tw,2050,4.407667917994157e-07
+calliope,diag-npi,ESP,Capacity|Electricity|Gas|CCGT,tw,2050,6.631371323561852e-07
+calliope,diag-npi,FRA,Capacity|Electricity|Gas|CCGT,tw,2050,8.286430540484497e-07
+calliope,diag-npi,GBR,Capacity|Electricity|Gas|CCGT,tw,2050,1.9790406103265902e-06
+calliope,diag-npi,ITA,Capacity|Electricity|Gas|CCGT,tw,2050,2.824013460802613e-06
+calliope,diag-npi,MNE,Capacity|Electricity|Gas|CCGT,tw,2050,2.770084774201315e-07
+calliope,diag-npi,NLD,Capacity|Electricity|Gas|CCGT,tw,2050,3.029283697771089e-07
+calliope,diag-npi,NOR,Capacity|Electricity|Gas|CCGT,tw,2050,1.1904053127300025e-06
+calliope,diag-npi,POL,Capacity|Electricity|Gas|CCGT,tw,2050,1.3465325126299665e-06
+calliope,diag-npi,PRT,Capacity|Electricity|Gas|CCGT,tw,2050,7.139850581676722e-07
+calliope,diag-npi,SWE,Capacity|Electricity|Gas|CCGT,tw,2050,1.0000670293694248e-06
+calliope,diag-npi,DEU,Capacity|Electricity|Coal,tw,2030,0.0460325746783112
+calliope,diag-npi,DNK,Capacity|Electricity|Coal,tw,2030,0.0027209345947756
+calliope,diag-npi,ESP,Capacity|Electricity|Coal,tw,2030,0.0096150162857575
+calliope,diag-npi,FRA,Capacity|Electricity|Coal,tw,2030,0.0029299368858384
+calliope,diag-npi,GBR,Capacity|Electricity|Coal,tw,2030,0.0109545695350481
+calliope,diag-npi,ITA,Capacity|Electricity|Coal,tw,2030,0.0084279178279889
+calliope,diag-npi,MNE,Capacity|Electricity|Coal,tw,2030,0.0002099969067762
+calliope,diag-npi,NLD,Capacity|Electricity|Coal,tw,2030,0.0051139438462013
+calliope,diag-npi,POL,Capacity|Electricity|Coal,tw,2030,0.0288705091075609
+calliope,diag-npi,PRT,Capacity|Electricity|Coal,tw,2030,0.0017559742930985
+calliope,diag-npi,SWE,Capacity|Electricity|Coal,tw,2030,0.0001299895848686
+calliope,diag-npi,DEU,Capacity|Electricity|Coal,tw,2050,0.0460329552605697
+calliope,diag-npi,DNK,Capacity|Electricity|Coal,tw,2050,2.903179471936177e-06
+calliope,diag-npi,ESP,Capacity|Electricity|Coal,tw,2050,0.0096150973527136
+calliope,diag-npi,FRA,Capacity|Electricity|Coal,tw,2050,0.0017703400741881
+calliope,diag-npi,GBR,Capacity|Electricity|Coal,tw,2050,1.6845413962214948e-06
+calliope,diag-npi,ITA,Capacity|Electricity|Coal,tw,2050,0.0084279988961788
+calliope,diag-npi,MNE,Capacity|Electricity|Coal,tw,2050,0.0001304350998434
+calliope,diag-npi,NLD,Capacity|Electricity|Coal,tw,2050,0.005113979223829
+calliope,diag-npi,POL,Capacity|Electricity|Coal,tw,2050,0.0275312262363297
+calliope,diag-npi,PRT,Capacity|Electricity|Coal,tw,2050,0.0017559479765454
+calliope,diag-npi,SWE,Capacity|Electricity|Coal,tw,2050,4.267828353346775e-07
+calliope,diag-npi,CHE,Capacity|Electricity|Nuclear,tw,2030,0.003373
+calliope,diag-npi,DEU,Capacity|Electricity|Nuclear,tw,2030,0.012085
+calliope,diag-npi,ESP,Capacity|Electricity|Nuclear,tw,2030,0.0075724
+calliope,diag-npi,FRA,Capacity|Electricity|Nuclear,tw,2030,0.0631299999999999
+calliope,diag-npi,GBR,Capacity|Electricity|Nuclear,tw,2030,0.012638
+calliope,diag-npi,NLD,Capacity|Electricity|Nuclear,tw,2030,0.000492
+calliope,diag-npi,SWE,Capacity|Electricity|Nuclear,tw,2030,0.009525
+calliope,diag-npi,FRA,Capacity|Electricity|Nuclear,tw,2050,0.0220001506956049
+calliope,diag-npi,GBR,Capacity|Electricity|Nuclear,tw,2050,0.0089
+calliope,diag-npi,CHE,Capacity|Electricity|Hydro|Pumped Storage,tw,2030,0.00424765
+calliope,diag-npi,DEU,Capacity|Electricity|Hydro|Pumped Storage,tw,2030,0.00642472
+calliope,diag-npi,ESP,Capacity|Electricity|Hydro|Pumped Storage,tw,2030,0.007823272
+calliope,diag-npi,FRA,Capacity|Electricity|Hydro|Pumped Storage,tw,2030,0.005064
+calliope,diag-npi,GBR,Capacity|Electricity|Hydro|Pumped Storage,tw,2030,0.002905
+calliope,diag-npi,ITA,Capacity|Electricity|Hydro|Pumped Storage,tw,2030,0.0079626
+calliope,diag-npi,NOR,Capacity|Electricity|Hydro|Pumped Storage,tw,2030,0.0013443
+calliope,diag-npi,POL,Capacity|Electricity|Hydro|Pumped Storage,tw,2030,0.001705
+calliope,diag-npi,PRT,Capacity|Electricity|Hydro|Pumped Storage,tw,2030,0.00364
+calliope,diag-npi,SWE,Capacity|Electricity|Hydro|Pumped Storage,tw,2030,9.2e-05
+calliope,diag-npi,CHE,Capacity|Electricity|Hydro|Pumped Storage,tw,2050,0.00424765
+calliope,diag-npi,DEU,Capacity|Electricity|Hydro|Pumped Storage,tw,2050,0.00642472
+calliope,diag-npi,ESP,Capacity|Electricity|Hydro|Pumped Storage,tw,2050,0.007823272
+calliope,diag-npi,FRA,Capacity|Electricity|Hydro|Pumped Storage,tw,2050,0.005064
+calliope,diag-npi,GBR,Capacity|Electricity|Hydro|Pumped Storage,tw,2050,0.002905
+calliope,diag-npi,ITA,Capacity|Electricity|Hydro|Pumped Storage,tw,2050,0.0079626
+calliope,diag-npi,NOR,Capacity|Electricity|Hydro|Pumped Storage,tw,2050,0.0013443
+calliope,diag-npi,POL,Capacity|Electricity|Hydro|Pumped Storage,tw,2050,0.001705
+calliope,diag-npi,PRT,Capacity|Electricity|Hydro|Pumped Storage,tw,2050,0.00364
+calliope,diag-npi,SWE,Capacity|Electricity|Hydro|Pumped Storage,tw,2050,9.2e-05
